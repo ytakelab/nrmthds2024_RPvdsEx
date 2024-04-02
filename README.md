@@ -1,5 +1,6 @@
-# NiDaqControlPanel
-MATLAB GUI for controlling National Instruments data acquisition boards
+# Theta wave detection
+This is a code for TDT RPvdsEx (Tucker-Davis Technologies) which detect high power in the theta band (8-12 Hz).
+
 
 ## Getting Started
 
@@ -21,8 +22,9 @@ The code has been tested with a TDT Drivers/RPvdsEx ver 98 (updated at 08/21/202
 3. Launch RPvdsEx.
 4. Open Theta_detection.rcx.
 5. Run the code by clicking the "Build, Load and Run" in the "Implement" tub in the menu bar.
-6. Launch the code by making the trigger of "TrgIn" component in the main tub high using Software trigger 1 command.
+6. Launch the code by making the trigger of "TrgIn" component in the Sheet 0 tub high using Software trigger 1 command.
 ![Launching the code](\tdt_launch_code.png){#fig:fg1}
+7. Optimize the K values in the "Compare" components in the Sheet 1 tub depending on the input value.
 
 ## Help
 Refer the documents below for further manuals.
